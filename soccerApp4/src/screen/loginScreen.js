@@ -21,7 +21,7 @@ const LoginScreen = ({ navigation }) => {
       if (response.status === 200) {
         // Display a success message and navigate to the home screen
         Alert.alert('Success', 'Logged in successfully!');
-        navigation.navigate('Home'); // Navigate to the home screen
+        navigation.navigate('SportStar'); // Navigate to the home screen
       } else {
         // Display an error message if the login was not successful
         Alert.alert('Error', 'Invalid username or password.');
