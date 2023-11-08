@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, ScrollView, TextInput, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, ScrollView, TextInput, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const HomeScreen = () => {
@@ -15,13 +15,8 @@ const HomeScreen = () => {
           style={styles.input}
           placeholder="Search for a team, game, member, etc." 
         />
-        
-        {/* Search button */}
-        <TouchableOpacity style={styles.searchButton}>
-          <Text>Search</Text>
-        </TouchableOpacity>
+        {/* You can add more comments here if needed */}
       </View>
-
     </ScrollView>
   );
 };
@@ -46,12 +41,6 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     fontSize: 16,
-  },
-  searchButton: {
-    marginLeft: 10,
-    padding: 8,
-    backgroundColor: 'blue',
-    borderRadius: 10,
   },
 });
 
