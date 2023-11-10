@@ -8,31 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* soccerApp4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* soccerApp4Tests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-soccerApp4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-soccerApp4.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-soccerApp4-soccerApp4Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-soccerApp4-soccerApp4Tests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		93C6A0DA2AFB174100BBE23C /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0C72AFB174100BBE23C /* Fontisto.ttf */; };
-		93C6A0DB2AFB174100BBE23C /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0C82AFB174100BBE23C /* Octicons.ttf */; };
-		93C6A0DC2AFB174100BBE23C /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0C92AFB174100BBE23C /* Feather.ttf */; };
-		93C6A0DD2AFB174100BBE23C /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0CA2AFB174100BBE23C /* FontAwesome6_Regular.ttf */; };
-		93C6A0DE2AFB174100BBE23C /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0CB2AFB174100BBE23C /* Entypo.ttf */; };
-		93C6A0DF2AFB174100BBE23C /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0CC2AFB174100BBE23C /* FontAwesome5_Brands.ttf */; };
-		93C6A0E02AFB174100BBE23C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0CD2AFB174100BBE23C /* MaterialCommunityIcons.ttf */; };
-		93C6A0E12AFB174100BBE23C /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0CE2AFB174100BBE23C /* AntDesign.ttf */; };
-		93C6A0E22AFB174100BBE23C /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0CF2AFB174100BBE23C /* Foundation.ttf */; };
-		93C6A0E32AFB174100BBE23C /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D02AFB174100BBE23C /* Ionicons.ttf */; };
-		93C6A0E42AFB174100BBE23C /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D12AFB174100BBE23C /* FontAwesome5_Solid.ttf */; };
-		93C6A0E52AFB174100BBE23C /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D22AFB174100BBE23C /* FontAwesome5_Regular.ttf */; };
-		93C6A0E62AFB174100BBE23C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D32AFB174100BBE23C /* FontAwesome.ttf */; };
-		93C6A0E72AFB174100BBE23C /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D42AFB174100BBE23C /* Zocial.ttf */; };
-		93C6A0E82AFB174100BBE23C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D52AFB174100BBE23C /* EvilIcons.ttf */; };
-		93C6A0E92AFB174100BBE23C /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D62AFB174100BBE23C /* FontAwesome6_Solid.ttf */; };
-		93C6A0EA2AFB174100BBE23C /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D72AFB174100BBE23C /* SimpleLineIcons.ttf */; };
-		93C6A0EB2AFB174100BBE23C /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D82AFB174100BBE23C /* FontAwesome6_Brands.ttf */; };
-		93C6A0EC2AFB174100BBE23C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C6A0D92AFB174100BBE23C /* MaterialIcons.ttf */; };
+		2252D8B0CFD7E911A7B87908 /* libPods-soccerApp4-soccerApp4Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9216A9C57831849E74ED71B1 /* libPods-soccerApp4-soccerApp4Tests.a */; };
+		B74020A1221D20822C14CA04 /* libPods-soccerApp4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 870F5684FBBEA99456210987 /* libPods-soccerApp4.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +34,10 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = soccerApp4/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = soccerApp4/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = soccerApp4/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-soccerApp4-soccerApp4Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-soccerApp4-soccerApp4Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-soccerApp4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soccerApp4.debug.xcconfig"; path = "Target Support Files/Pods-soccerApp4/Pods-soccerApp4.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-soccerApp4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soccerApp4.release.xcconfig"; path = "Target Support Files/Pods-soccerApp4/Pods-soccerApp4.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-soccerApp4-soccerApp4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soccerApp4-soccerApp4Tests.debug.xcconfig"; path = "Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-soccerApp4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-soccerApp4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		697D3FA73634D319EBC218E9 /* Pods-soccerApp4-soccerApp4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soccerApp4-soccerApp4Tests.debug.xcconfig"; path = "Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = soccerApp4/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-soccerApp4-soccerApp4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soccerApp4-soccerApp4Tests.release.xcconfig"; path = "Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		870F5684FBBEA99456210987 /* libPods-soccerApp4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-soccerApp4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9216A9C57831849E74ED71B1 /* libPods-soccerApp4-soccerApp4Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-soccerApp4-soccerApp4Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C6A0C72AFB174100BBE23C /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		93C6A0C82AFB174100BBE23C /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		93C6A0C92AFB174100BBE23C /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
@@ -81,7 +57,10 @@
 		93C6A0D72AFB174100BBE23C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		93C6A0D82AFB174100BBE23C /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
 		93C6A0D92AFB174100BBE23C /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		99348603F4C1D18A0D7BFE8A /* Pods-soccerApp4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soccerApp4.release.xcconfig"; path = "Target Support Files/Pods-soccerApp4/Pods-soccerApp4.release.xcconfig"; sourceTree = "<group>"; };
+		A63B41C302718679CB9957E1 /* Pods-soccerApp4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soccerApp4.debug.xcconfig"; path = "Target Support Files/Pods-soccerApp4/Pods-soccerApp4.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF56AE5CFEB6B36F99155809 /* Pods-soccerApp4-soccerApp4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soccerApp4-soccerApp4Tests.release.xcconfig"; path = "Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-soccerApp4-soccerApp4Tests.a in Frameworks */,
+				2252D8B0CFD7E911A7B87908 /* libPods-soccerApp4-soccerApp4Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-soccerApp4.a in Frameworks */,
+				B74020A1221D20822C14CA04 /* libPods-soccerApp4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-soccerApp4.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-soccerApp4-soccerApp4Tests.a */,
+				870F5684FBBEA99456210987 /* libPods-soccerApp4.a */,
+				9216A9C57831849E74ED71B1 /* libPods-soccerApp4-soccerApp4Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,10 +184,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-soccerApp4.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-soccerApp4.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-soccerApp4-soccerApp4Tests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-soccerApp4-soccerApp4Tests.release.xcconfig */,
+				A63B41C302718679CB9957E1 /* Pods-soccerApp4.debug.xcconfig */,
+				99348603F4C1D18A0D7BFE8A /* Pods-soccerApp4.release.xcconfig */,
+				697D3FA73634D319EBC218E9 /* Pods-soccerApp4-soccerApp4Tests.debug.xcconfig */,
+				EF56AE5CFEB6B36F99155809 /* Pods-soccerApp4-soccerApp4Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -220,12 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "soccerApp4Tests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				6DC990DA72B697BDF1D4BA30 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				CAF73A6330CC18C4262873FD /* [CP] Embed Pods Frameworks */,
+				37DBB1145D3569EA5C8EB2F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,14 +220,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "soccerApp4" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				8BC08BD2C076DB180396261D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				675656748A89CB2E1252A5CA /* [CP] Embed Pods Frameworks */,
+				107313DCB39A734FB352719B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,27 +286,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C6A0E52AFB174100BBE23C /* FontAwesome5_Regular.ttf in Resources */,
-				93C6A0DA2AFB174100BBE23C /* Fontisto.ttf in Resources */,
-				93C6A0DF2AFB174100BBE23C /* FontAwesome5_Brands.ttf in Resources */,
-				93C6A0E32AFB174100BBE23C /* Ionicons.ttf in Resources */,
-				93C6A0E42AFB174100BBE23C /* FontAwesome5_Solid.ttf in Resources */,
-				93C6A0DE2AFB174100BBE23C /* Entypo.ttf in Resources */,
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				93C6A0E12AFB174100BBE23C /* AntDesign.ttf in Resources */,
-				93C6A0E72AFB174100BBE23C /* Zocial.ttf in Resources */,
-				93C6A0E22AFB174100BBE23C /* Foundation.ttf in Resources */,
-				93C6A0EB2AFB174100BBE23C /* FontAwesome6_Brands.ttf in Resources */,
-				93C6A0DC2AFB174100BBE23C /* Feather.ttf in Resources */,
-				93C6A0EA2AFB174100BBE23C /* SimpleLineIcons.ttf in Resources */,
-				93C6A0E82AFB174100BBE23C /* EvilIcons.ttf in Resources */,
-				93C6A0DB2AFB174100BBE23C /* Octicons.ttf in Resources */,
-				93C6A0E62AFB174100BBE23C /* FontAwesome.ttf in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				93C6A0E02AFB174100BBE23C /* MaterialCommunityIcons.ttf in Resources */,
-				93C6A0E92AFB174100BBE23C /* FontAwesome6_Solid.ttf in Resources */,
-				93C6A0DD2AFB174100BBE23C /* FontAwesome6_Regular.ttf in Resources */,
-				93C6A0EC2AFB174100BBE23C /* MaterialIcons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +308,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		107313DCB39A734FB352719B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soccerApp4/Pods-soccerApp4-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soccerApp4/Pods-soccerApp4-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soccerApp4/Pods-soccerApp4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37DBB1145D3569EA5C8EB2F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675656748A89CB2E1252A5CA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,7 +359,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soccerApp4/Pods-soccerApp4-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		6DC990DA72B697BDF1D4BA30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,7 +381,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		8BC08BD2C076DB180396261D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,7 +403,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		CAF73A6330CC18C4262873FD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -426,40 +418,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-soccerApp4/Pods-soccerApp4-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-soccerApp4/Pods-soccerApp4-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soccerApp4/Pods-soccerApp4-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soccerApp4-soccerApp4Tests/Pods-soccerApp4-soccerApp4Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -514,7 +472,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-soccerApp4-soccerApp4Tests.debug.xcconfig */;
+			baseConfigurationReference = 697D3FA73634D319EBC218E9 /* Pods-soccerApp4-soccerApp4Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,7 +500,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-soccerApp4-soccerApp4Tests.release.xcconfig */;
+			baseConfigurationReference = EF56AE5CFEB6B36F99155809 /* Pods-soccerApp4-soccerApp4Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -567,7 +525,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-soccerApp4.debug.xcconfig */;
+			baseConfigurationReference = A63B41C302718679CB9957E1 /* Pods-soccerApp4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -594,7 +552,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-soccerApp4.release.xcconfig */;
+			baseConfigurationReference = 99348603F4C1D18A0D7BFE8A /* Pods-soccerApp4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

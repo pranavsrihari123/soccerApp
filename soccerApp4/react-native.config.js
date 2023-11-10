@@ -4,11 +4,11 @@
    TODO: Prevent autolinking of all react-native-vector-icons fonts to make app lighter
 */
 
-module.exports = {
+/*module.exports = {
     project: {
       ios: {},
       android: {},
     },
     assets: ['ios/Fonts'], // Replace with the actual path to your fonts folder
-  };
+  };*/
   

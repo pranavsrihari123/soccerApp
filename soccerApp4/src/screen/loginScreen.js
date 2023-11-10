@@ -12,7 +12,7 @@ const LoginScreen = ({ navigation }) => {
   const handleLogin = async () => {
     try {
       // Send data to the backend for login verification
-      const response = await axios.post('http://localhost:3000/login', {
+      const response = await axios.post('http://localhost:3000/auth/login', {
         username,
         password,
       });
@@ -22,13 +22,10 @@ const LoginScreen = ({ navigation }) => {
         // Display a success message and navigate to the home screen
         Alert.alert('Success', 'Logged in successfully!');
         navigation.navigate('SportStar'); // Navigate to the home screen
-      } else {
-        // Display an error message if the login was not successful
-        Alert.alert('Error', 'Invalid username or password.');
-      }
+      } 
     } catch (error) {
       // Display an error message if an error occurs during login
-      Alert.alert('Error', 'Something went wrong. Please try again.');
+      Alert.alert('Error', 'Invalid username or password.');
     }
   };
 
