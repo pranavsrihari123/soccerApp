@@ -27,6 +27,11 @@ const InputProfileScreen = () => {
         skillLevel,
         username,
         password,
+        // Additional fields if needed
+        userRole: 'player', // Replace with the appropriate user role
+        rating: 0, // Default rating, replace if needed
+        teamId: null, // Assuming the user is not initially associated with any team
+        gender: '', // Replace with the appropriate gender
       });
 
       if (response.status === 201) {
@@ -81,7 +86,6 @@ const InputProfileScreen = () => {
         onChangeText={setSkillLevel}
       />
 
-      <Text style={styles.sectionHeader}>Account Information</Text>
       <TextInput
         style={styles.input}
         placeholder="Username"

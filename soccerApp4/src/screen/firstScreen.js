@@ -18,7 +18,7 @@ const FirstScreen = ({ navigation }) => {
         <View style={styles.separator} />
         <Button
           title="Sign Up"
-          onPress={() => navigation.navigate('InputProfile')}
+          onPress={() => navigation.navigate('InputProfile1')}
           color="#34C759" // Set button color
         />
       </View>
