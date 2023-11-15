@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Picker, TouchableWithoutFeedback, Keyboard } from 'react-native';
 import axios from 'axios';
 import DatePicker from 'react-native-date-picker';
+import { storeUUID } from '../uuidStorage';
 
 const InputProfile2Screen = ({ route, navigation }) => {
   const { username, password, email } = route.params;
@@ -39,6 +40,8 @@ const InputProfile2Screen = ({ route, navigation }) => {
 
       if (response.status === 201) {
         // If the request is successful, navigate to HomeScreen
+        console.log(response);
+        await storeUUID(response.data.user.user_id);
         navigation.navigate('SportStar');
       } else {
         // Handle other response statuses or errors

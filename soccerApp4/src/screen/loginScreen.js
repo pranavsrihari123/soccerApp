@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, Alert } from 'react-native';
 import axios from 'axios';
+import { storeUUID } from '../uuidStorage';
 
 // Define the LoginScreen component
 const LoginScreen = ({ navigation }) => {
@@ -12,7 +13,7 @@ const LoginScreen = ({ navigation }) => {
   const handleLogin = async () => {
     try {
       // Send data to the backend for login verification
-      const response = await axios.post('http://localhost:3000/auth/login', {
+      const response = await axios.post('http://localhost:3000/user/login', {
         username,
         password,
       });
@@ -21,6 +22,7 @@ const LoginScreen = ({ navigation }) => {
       if (response.status === 200) {
         // Display a success message and navigate to the home screen
         Alert.alert('Success', 'Logged in successfully!');
+        await storeUUID(response.data.user.user_id);
         navigation.navigate('SportStar'); // Navigate to the home screen
       } 
     } catch (error) {
