@@ -1,18 +1,20 @@
 import React from 'react';
+//import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { createDrawerNavigator } from '@react-navigation/drawer'; // Import createDrawerNavigator
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './screen/HomeScreen';
 import GameSearchScreen from './screen/GameSearchScreen';
 import LeaderBoardScreen from './screen/LeaderBoardScreen';
 import CalendarScreen from './screen/Calendar';
 import TeamScreen from './screen/Teams';
-import LeftTabNavigator from './LeftTabNavigator'; // Import your LeftTabNavigator
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useNavigation } from '@react-navigation/native';
 
 const Tab = createBottomTabNavigator();
-const Drawer = createDrawerNavigator(); // Create a Drawer navigator
+const Drawer = createDrawerNavigator();
+//const Stack = createStackNavigator();
 
 const BottomTabNavigation = () => {
   const navigation = useNavigation();
@@ -76,7 +78,7 @@ const BottomTabNavigation = () => {
 const AppNavigation = () => {
   return (
     <NavigationContainer independent={true}>
-      <Drawer.Navigator screenOptions={{ headerShown: true, headerTitle: 'SportStar' }}>
+      <Drawer.Navigator id='Drawer' screenOptions={{ headerShown: true, headerTitle: 'SportStar' }}>
         <Drawer.Screen
           name="SportStar"
           component={BottomTabNavigation}
@@ -91,7 +93,6 @@ const AppNavigation = () => {
             ),
           })}
         />
-        <Drawer.Screen name="LeftTab" component={LeftTabNavigator} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
